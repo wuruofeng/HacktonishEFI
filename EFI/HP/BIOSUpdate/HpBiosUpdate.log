@@ -1,0 +1,58 @@
+2020-10-07 23:51:21  EFI HP BIOS Update 3.8.0.0 Started
+2020-10-07 23:51:21  [L]> System ID: 8259
+2020-10-07 23:51:21  HP BIOS Image Interface Protocol Version 2.0
+2020-10-07 23:51:21  [L]> EFI_HP_BATTERY_CONTROL_PROTOCOL_2010 is present.
+2020-10-07 23:51:21  [L]> Found 1 Absolute Pointer Protocol(s)
+2020-10-07 23:51:21  [L]> 0 UART device path node found.
+2020-10-07 23:51:21  All Required Protocols Located
+2020-10-07 23:51:21  HpBiosUpdate.Mode = 0
+2020-10-07 23:51:21  Current Directory = EFI\HP\BIOSUpdate\
+2020-10-07 23:51:21  [L]> System ID: 8259
+2020-10-07 23:51:21  SMBIOS Init Success
+2020-10-07 23:51:21  SystemFamily = 2
+2020-10-07 23:51:21  [L]> PlatformLang reported as zh-CN.
+2020-10-07 23:51:21  [L]> Language Selected is currently (chs).
+2020-10-07 23:51:21  Starting BIOS Update Process
+2020-10-07 23:51:21  Setting BIOS Update Token
+2020-10-07 23:51:21  Getting BIOS Detail Information
+2020-10-07 23:51:21  BIOS Returned BiosID '08217'
+2020-10-07 23:51:21  Loading BIOS Image
+2020-10-07 23:51:21  File name constructed: EFI\HP\BIOS\New\08217.bin
+2020-10-07 23:51:21  Reading New BIOS Image EFI\HP\BIOS\New\08217.bin
+2020-10-07 23:51:21  Getting BIOS version from file image
+2020-10-07 23:51:21  Bios Version = F.55
+2020-10-07 23:51:21  Verifying AC or Battery Power Status
+2020-10-07 23:51:36  Verifying Binary match
+2020-10-07 23:51:36  Loading Signature File
+2020-10-07 23:51:36  Failed Reading BIOS Signature File EFI\HP\BIOS\New\08217.sig
+2020-10-07 23:51:36  Failed Reading .sig file. (Not Found)
+2020-10-07 23:51:37  Bios Verify Signature Success (Success)
+2020-10-07 23:51:37  Loading Password File if required
+2020-10-07 23:51:37  BIOS Password not required.
+2020-10-07 23:51:37  Writing BIOS Image
+2020-10-07 23:53:07  Verifying Written BIOS Image
+2020-10-07 23:53:08  Skipping Verification Block 0 Address 0x0000000000000000 Size 0x0000000000200000
+2020-10-07 23:53:08  Next BlockIndex 512, BlockAddress = 0x0000000000200000
+2020-10-07 23:53:09  Skipping Verification Block 544 Address 0x0000000000220000 Size 0x0000000000026000
+2020-10-07 23:53:09  Next BlockIndex 582, BlockAddress = 0x0000000000246000
+2020-10-07 23:53:09  Skipping Verification Block 596 Address 0x0000000000254000 Size 0x0000000000019000
+2020-10-07 23:53:09  Next BlockIndex 621, BlockAddress = 0x000000000026D000
+2020-10-07 23:53:36  Skipping Verification Block 1753 Address 0x00000000006D9000 Size 0x0000000000127000
+2020-10-07 23:53:36  Next BlockIndex 2048, BlockAddress = 0x0000000000800000
+2020-10-07 23:53:36  Updating BIOS files
+2020-10-07 23:53:36  File name constructed: EFI\HP\BIOS\Current\08217.bin
+2020-10-07 23:53:36  Read file EFI\HP\BIOS\Current\08217.bin failed (Not Found)
+2020-10-07 23:53:36  File name constructed: EFI\HP\BIOS\Current\08217.sig
+2020-10-07 23:53:36  Read file EFI\HP\BIOS\Current\08217.sig failed (Not Found)
+2020-10-07 23:53:36  File name constructed: EFI\HP\BIOS\Current\08217.s12
+2020-10-07 23:53:36  Read file EFI\HP\BIOS\Current\08217.s12 failed (Not Found)
+2020-10-07 23:53:36  File name constructed: EFI\HP\BIOS\Current\08217.bin
+2020-10-07 23:53:36  File name constructed: EFI\HP\BIOS\Current\08217.sig
+2020-10-07 23:53:36  File name constructed: EFI\HP\BIOS\New\08217.bin
+2020-10-07 23:53:36  Will delete file EFI\HP\BIOS\New\08217.bin
+2020-10-07 23:53:36  File name constructed: EFI\HP\BIOS\New\08217.sig
+2020-10-07 23:53:36  Will delete file EFI\HP\BIOS\New\08217.sig
+2020-10-07 23:53:36  EfiBiosUpdateLibEntry(): Result is 0x0
+2020-10-07 23:53:36  Setting Flash Completion Status
+2020-10-07 23:53:36  BIOS Update Process Complete
+2020-10-07 23:53:36  BIOS Update Successful
